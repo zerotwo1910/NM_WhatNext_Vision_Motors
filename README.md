@@ -15,6 +15,15 @@
 
 ---
 
+## Project Links
+
+| Resource | Link |
+|---|---|
+| **GitHub Repository** | [View on GitHub](https://github.com/zerotwo1910/NM_WhatNext_Vision_Motors) |
+| **Project Demo Video** | [Watch Demo](https://drive.google.com/drive/folders/1NCnxv3U2qQUqcyQVXgG9KUiFCmBACISw) |
+
+---
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -29,7 +38,6 @@
 - [Advantages & Disadvantages](#advantages--disadvantages)
 - [Future Scope](#future-scope)
 - [Source Code](#source-code)
-- [Project Links](#project-links)
 
 ---
 
@@ -413,18 +421,6 @@ global class VehicleOrderBatchScheduler implements Schedulable {
     }
 }
 ```
-
----
-
-## Project Links
-
-| Resource | Link |
-|---|---|
-| **GitHub Repository** | [View on GitHub](https://github.com/zerotwo1910/NM_WhatNext_Vision_Motors) |
-| **Project Demo Video** | [Watch Demo](https://drive.google.com/drive/folders/1NCnxv3U2qQUqcyQVXgG9KUiFCmBACISw) |
-| **Trailhead Profile** | `ranjithrk2468.eacc9b32b248@agentforce.com` |
-
----
 
 <div align="center">
 
