@@ -194,7 +194,7 @@ The project was executed over **4 sprints** using an Agile approach:
 
 ### Custom Objects & Relationships Overview
 
-<!-- Add screenshot: Fig 1 - Custom Objects & Relationships -->
+/Screenshots/Objects & Relationships.png
 > *Fig 1: Custom Objects & Relationships — WhatNext Vision Motors Salesforce Org*
 
 ---
