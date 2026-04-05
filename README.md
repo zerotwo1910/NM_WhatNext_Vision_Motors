@@ -194,40 +194,40 @@ The project was executed over **4 sprints** using an Agile approach:
 
 ### Custom Objects & Relationships Overview
 
-/Screenshots/Objects & Relationships.png
+(Screenshots/Objects & Relationships.png)
 > *Fig 1: Custom Objects & Relationships — WhatNext Vision Motors Salesforce Org*
 
 ---
 
 ### Custom Object Field Configurations
 
-<!-- Add screenshot: Fig 2 - Vehicle__c Fields & Relationships -->
+(Screenshots/Custom Objects Field1.png)
 > *Fig 2: `Vehicle__c` — Fields & Relationships (Price__c, Status__c, Stock_Quantity__c, Vehicle_Dealer__c Lookup, Vehicle_Model__c)*
 
-<!-- Add screenshot: Fig 3 - Vehicle_Customer__c Fields & Relationships -->
+(Screenshots/Custom Objects Field2.png)
 > *Fig 3: `Vehicle_Customer__c` — Fields & Relationships (Address__c, Email__c, Phone__c, Preferred_Vehicle_Type__c)*
 
-<!-- Add screenshot: Fig 4 - Vehicle_Dealer__c Fields & Relationships -->
+(Screenshots/Custom Objects Field3.png)
 > *Fig 4: `Vehicle_Dealer__c` — Fields & Relationships (Dealer_Code__c Auto Number, Dealer_Location__c, Email__c, Phone__c)*
 
 ---
 
 ### Custom Object Tab Creation
 
-<!-- Add screenshot: Fig 5 - Custom Object Tabs -->
+(Screenshots/Object Tab Creation.png)
 > *Fig 5: Custom Object Tabs — Vehicle Customers, Vehicle Dealers, Vehicle Orders, Vehicles, Vehicle Service Requests, Vehicle Test Drives*
 
 ---
 
 ### WhatNext Vision Motors Lightning App
 
-<!-- Add screenshot: Fig 6 - Lightning App Branding -->
+(Screenshots/Lightning App.png)
 > *Fig 6: Lightning App — App Details & Branding (App Name: WhatNext Vision Motors, Color: #0070D2)*
 
-<!-- Add screenshot: Fig 7 - Lightning App Navigation Items -->
+(Screenshots/Lightning App1.png)
 > *Fig 7: Lightning App — Navigation Items (Vehicle Customers, Vehicle Dealers, Vehicle Orders, Vehicle Service Requests, Vehicle Test Drives, Vehicles, Reports, Dashboards)*
 
-<!-- Add screenshot: Fig 8 - Lightning App User Profiles -->
+(Screenshots/Lightning App3.png)
 > *Fig 8: Lightning App — User Profiles (System Administrator assigned)*
 
 ---
@@ -236,12 +236,12 @@ The project was executed over **4 sprints** using an Agile approach:
 
 #### Flow 1 — Auto Assign Dealer
 
-<!-- Add screenshot: Fig 9 - Auto Assign Dealer Flow -->
+(Screenshots/Flow Auto Assign Dealer.png)
 > *Fig 9: Auto Assign Dealer Flow — Record-Triggered on `Vehicle_Order__c` (Get Customer Info → Get Nearest Dealer → Assign Dealer to Order)*
 
 #### Flow 2 — Test Drive Reminder
 
-<!-- Add screenshot: Fig 10 - Test Drive Reminder Flow -->
+(Screenshots/Flow Test Drive Reminder.png)
 > *Fig 10: Test Drive Reminder Flow — Scheduled Path fetches Customer Information and sends automated reminder notification*
 
 ---
