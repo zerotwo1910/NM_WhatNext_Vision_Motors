@@ -1,8 +1,6 @@
-# 🚗 WhatNext Vision Motors — Salesforce CRM Project
+# WhatNext Vision Motors — Salesforce CRM Project
 
 > *Shaping the Future of Mobility with Innovation and Excellence*
-
-![WhatNext Vision Motors Banner](<!-- Add banner/cover image here -->)
 
 ---
 
@@ -17,7 +15,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Team](#team)
@@ -35,7 +33,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 **WhatNext Vision Motors** is a pioneering force in the automotive industry, dedicated to transforming the mobility sector with innovative technology and solutions that prioritize customer needs. This project implements an end-to-end **Salesforce CRM solution** for the automotive domain covering vehicles, dealers, customers, and orders.
 
@@ -47,7 +45,7 @@
 
 ---
 
-## 👥 Team
+## Team
 
 | Role | Name |
 |---|---|
@@ -59,7 +57,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology / Tool | Purpose |
 |---|---|---|
@@ -72,7 +70,7 @@
 
 ---
 
-## 📦 Modules
+## Modules
 
 ### Module 1 — Vehicle Inventory Management (`Vehicle__c`)
 The central object of the system. Each vehicle record stores its name, model type, price, stock quantity, linked dealer, and availability status. The Apex Trigger monitors this object to enforce stock constraints in real time, preventing orders from being placed when stock is zero.
@@ -94,7 +92,7 @@ Manages the complete after-sales service lifecycle. Customers raise service requ
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -127,26 +125,26 @@ Manages the complete after-sales service lifecycle. Customers raise service requ
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 1. 🗺️ Nearest Dealer Auto-Assignment
+### 1. Nearest Dealer Auto-Assignment
 The system automatically suggests the nearest dealer location to customers based on their address when placing an order, eliminating manual dealer selection entirely.
 
-### 2. 🚫 Out-of-Stock Order Prevention
+### 2. Out-of-Stock Order Prevention
 The Apex Trigger blocks orders for vehicles with zero stock, displaying a clear error message and preventing overselling at the data layer.
 
 ```
 "This vehicle is out of stock. Order cannot be placed."
 ```
 
-### 3. 🔄 Automated Batch Order Status Updates
+### 3. Automated Batch Order Status Updates
 A scheduled Batch Job accurately updates order status:
-- ✅ **Confirmed** — Vehicle is in stock
-- ⏳ **Pending** — Vehicle is out of stock
+- **Confirmed** — Vehicle is in stock
+- **Pending** — Vehicle is out of stock
 
 ---
 
-## 📅 Project Planning
+## Project Planning
 
 The project was executed over **4 sprints** using an Agile approach:
 
@@ -157,7 +155,7 @@ The project was executed over **4 sprints** using an Agile approach:
 | **Sprint 3** — Flow Automation | Week 5–6 | Built Auto Assign Dealer Flow (Record-Triggered on Order creation); nearest dealer suggested based on customer address | Auto dealer suggestion working on order creation |
 | **Sprint 4** — Apex Development | Week 7–8 | Developed stock validation Apex Trigger; built Batch Job to update order status; tested all components end-to-end | Complete Apex automation layer with stock validation and batch processing |
 
-### 🏁 Key Milestones
+### Key Milestones
 
 - **Milestone 1 (Week 2):** All 4 custom objects created with correct fields and relationships; object tabs configured.
 - **Milestone 2 (Week 4):** WhatNext Vision Motors Lightning App live with full navigation and System Administrator access.
@@ -166,7 +164,7 @@ The project was executed over **4 sprints** using an Agile approach:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Functional Test Cases
 
@@ -181,7 +179,7 @@ The project was executed over **4 sprints** using an Agile approach:
 | TC-07 | Create a customer record with address | Customer record saved; address available for nearest dealer suggestion | Customer record saved with address | ✅ PASS |
 | TC-08 | Verify order status lifecycle (Pending → Confirmed) | Order status transitions correctly based on stock and batch job | Status lifecycle works as expected | ✅ PASS |
 
-### ⚡ Performance Testing Results
+### Performance Testing Results
 
 | Metric | Result |
 |---|---|
@@ -192,7 +190,7 @@ The project was executed over **4 sprints** using an Agile approach:
 
 ---
 
-## 📸 Results & Screenshots
+## Results & Screenshots
 
 ### Custom Objects & Relationships Overview
 
@@ -248,7 +246,7 @@ The project was executed over **4 sprints** using an Agile approach:
 
 ---
 
-## ⚖️ Advantages & Disadvantages
+## Advantages & Disadvantages
 
 | ✅ Advantages | ❌ Disadvantages |
 |---|---|
@@ -260,19 +258,19 @@ The project was executed over **4 sprints** using an Agile approach:
 
 ---
 
-## 🔭 Future Scope
+## Future Scope
 
-- **🗺️ Geo-Based Dealer Assignment:** Enhance the Auto Assign Dealer Flow using Salesforce Maps or a custom Apex geo-coding service for precise geographical distance-based dealer assignment.
-- **🔐 Role-Based Access Control:** Create custom Profiles and Permission Sets for Sales Executives, Dealers, and Branch Managers.
-- **🌐 Customer Self-Service Portal:** Implement a Salesforce Experience Cloud portal for customers to place orders, check stock, track status, and find nearest dealers.
-- **🔄 Real-Time Stock Synchronization:** Integrate Vehicle inventory with an external ERP or warehouse management system using Salesforce Connect or REST API.
-- **🤖 Einstein AI Integration:** Add Einstein Next Best Action for vehicle recommendations and Einstein Analytics for management dashboards.
-- **📱 WhatsApp / SMS Notifications:** Integrate with a messaging platform (e.g., Twilio) for order confirmations and status updates.
-- **📲 Mobile App:** Extend the Lightning App to Salesforce Mobile for field sales executives.
+- **Geo-Based Dealer Assignment:** Enhance the Auto Assign Dealer Flow using Salesforce Maps or a custom Apex geo-coding service for precise geographical distance-based dealer assignment.
+- **Role-Based Access Control:** Create custom Profiles and Permission Sets for Sales Executives, Dealers, and Branch Managers.
+- **Customer Self-Service Portal:** Implement a Salesforce Experience Cloud portal for customers to place orders, check stock, track status, and find nearest dealers.
+- **Real-Time Stock Synchronization:** Integrate Vehicle inventory with an external ERP or warehouse management system using Salesforce Connect or REST API.
+- **Einstein AI Integration:** Add Einstein Next Best Action for vehicle recommendations and Einstein Analytics for management dashboards.
+- **WhatsApp / SMS Notifications:** Integrate with a messaging platform (e.g., Twilio) for order confirmations and status updates.
+- **Mobile App:** Extend the Lightning App to Salesforce Mobile for field sales executives.
 
 ---
 
-## 💻 Source Code
+## Source Code
 
 ### 1. `VehicleOrderTrigger.cls`
 Entry-point Apex Trigger on `Vehicle_Order__c`. Fires on `before insert`, `before update`, `after insert`, and `after update`. Delegates all logic to `VehicleOrderTriggerHandler`.
@@ -418,7 +416,7 @@ global class VehicleOrderBatchScheduler implements Schedulable {
 
 ---
 
-## 🔗 Project Links
+## Project Links
 
 | Resource | Link |
 |---|---|
